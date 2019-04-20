@@ -12,4 +12,4 @@ persistence:
   ## persistence.accessMode PVC Access Mode
   accessMode: ReadWriteMany
   ## persistence.size PVC Size
-  size: 20Gi
+  size: 10Gi
