@@ -33,10 +33,10 @@ spec:
           name: proxy
           hostPort: 8888
           protocol: TCP
-        arguments:
-          - '-p'
-          - '8888:8888'
-          - 'ANY'
+          #        arguments:
+          #- '-p'
+          #- '8888:8888'
+          #- 'ANY'
       volumes:
         - name: {{ template "fullname" . }}-pvc
           persistentVolumeClaim:
